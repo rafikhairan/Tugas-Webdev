@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'viga';
+  font-size: 32px;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+}
+
+.gambar {
+  background-image: url(./pages/banner.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.judul {
+  font-family: 'viga';
+  color: white;
+  padding-top: 200px;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.subjudul {
+  font-size: 18px;
+  color: rgba(255,255,255,0.60);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+/* Main */
+.utama {
+  height: 940px;
+}
+
+.pengertian {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.pengertian::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #212529;
+  margin: auto;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.pengertian2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.bawah {
+  margin-top: 25px;
+}
+
+.garisbawah {
+  width: 15%;
+}
+
+.check {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.radio {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.dropdown {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+/* Footer */
+.footer {
+  color: white;
+  padding-bottom: 50px;
+  margin-top: 40px;
+  height: 640px;
+}
+
+.contact {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid white;
+  margin: auto;
+  width: 170px;
+  margin-top: 10px;
+}
+
+.tombol {
+  margin-top: 25px;
+}
+
+.rafi {
+  margin-top: 90px;
+  font-size: small;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .navbar-brand, .nav-link {
+      color: white !important;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+      margin-right: 25px;
+  }
+
+  .nav-link:hover::after {
+      content: '';
+      display: block;
+      border-bottom: 3px solid white;
+      margin: auto;
+      width: 50%;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+  }
+
+  .judul {
+      font-size: 62px;
+  }
+
+  .subjudul {
+      font-size: 24px;
+  }
+
+  .gambar {
+      margin-top: -75px;
+      height: 640px;
+  }
+}
